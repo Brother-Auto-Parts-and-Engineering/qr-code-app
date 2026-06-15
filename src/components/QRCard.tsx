@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { QRCodeRecord } from '@/lib/db'
 import { getCategoryByValue } from '@/lib/categories'
-import { getImageUrl } from '@/lib/supabase'
+import { getImageUrl } from '@/lib/image-url'
 
 interface Props {
   item: QRCodeRecord

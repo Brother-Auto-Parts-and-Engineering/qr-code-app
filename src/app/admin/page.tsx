@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 import Image from 'next/image'
 import { QRCodeRecord } from '@/lib/db'
 import { getCategoryByValue, CATEGORIES } from '@/lib/categories'
-import { getImageUrl } from '@/lib/supabase'
+import { getImageUrl } from '@/lib/image-url'
 
 export default function AdminPage() {
   const [items, setItems] = useState<QRCodeRecord[]>([])
